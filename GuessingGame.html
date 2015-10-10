@@ -1,7 +1,43 @@
-<?!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.css">
+		<title>Guess the Number</title>
 	</head>
 	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2 col-sm-3 col-md-4"></div>
+				<div class="col-xs-8 col-sm-6 col-md-4">
+					<header class="page-header">
+						<h1 class="text-center">Guess the Number</h1>
+					</header>
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<form>
+								<div class="form-group">
+									<label for="guessInput">Guess a number between 1 and 100.</label>
+									<input type="number" class="form-control" id="guessInput" placeholder="1-100">
+								</div>
+								<button class="btn btn-primary btn-lg btn-block">Submit Guess</button>
+							</form>
+							<p class="text-left">5 guesses remaining.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-0 col-sm-1"></div>
+						<div class="col-xs-6 col-sm-5">
+							<button class="btn btn-default btn-md btn-block">Play Again</button>
+						</div>
+						<div class="col-xs-6 col-sm-5">
+							<button class="btn btn-default btn-md btn-block">Hint</button>
+						</div>
+						<div class="col-xs-0 col-sm-1"></div>
+					</div>
+				</div>
+				<div class="col-xs-2 col-sm-3 col-md-4"></div>
+			</div>
+		</div>
 	</body>
 </html>
