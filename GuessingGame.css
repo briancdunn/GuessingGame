@@ -1,0 +1,23 @@
+.victory {
+	background:rgba(0,0,255,.6);
+}
+
+.defeat {
+	background:rgba(255,0,0,.6);
+}
+
+.hot {
+	color:rgba(255,0,0,1);
+}
+
+.cold {
+	color:rgba(0,0,255,1);
+}
+
+.super {
+	font-weight: bold;
+}
+
+.shaded {
+	text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+}
